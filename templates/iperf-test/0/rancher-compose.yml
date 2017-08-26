@@ -1,4 +1,14 @@
-version: '2'
+version: '1'
+.catalog:
+  name: IPerf Test
+  version: 3.0.7
+  description: |
+    Gitlab CE is a free GitHub alternative
+    IPerf is a network performance testing tool
+  minimum_rancher_version: v0.56.0
+  maintainer: "Mohamed El Sayed <mohamed@rancher.com>"
+  uuid: iperf3-0
+
 services:
   pilot:
     scale: 1
