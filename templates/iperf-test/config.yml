@@ -1,0 +1,5 @@
+name: IPerf
+description: |
+  iperf -- an open source network performance test tool
+version: v0.0.1
+category: Networking
